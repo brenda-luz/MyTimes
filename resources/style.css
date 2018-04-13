@@ -141,10 +141,27 @@ h2 {
   margin-bottom: 20px;
 }
 
-.middle-story, .middle-story-text, .right-story-text {
+.middle-story, .middle-story-text {
   padding-top: 20px;
 }
 
 strong {
   font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.news-bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  border-bottom: 1px solid black;
 }
