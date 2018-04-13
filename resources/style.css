@@ -13,6 +13,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  z-index: 10;
 }
 
 .logo-container {
@@ -48,7 +49,10 @@ main {
   position: absolute;
   margin-top: 80px;
   display: flex;
+  width: 1300px;
+  justify-content: space-around;
   border: 1px solid black;
+  padding-top: 30px;
 }
 
 .large {
@@ -82,4 +86,31 @@ main {
 
 .large-content {
   border: 1px solid black;
+}
+
+.story-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.main-story {
+  background-image: url('./img/img-story-main.png');
+  background-repeat: no-repeat;
+}
+
+.story2 {
+  background-image: url('./img/img-story-2.png');
+}
+
+.story3 {
+  background-image: url('./img/img-story-3.png');
+}
+
+.medium-story {
+  background-image: url('./img/img-story-1.png');
 }
