@@ -48,7 +48,7 @@ a.nav {
 
 /*main section*/
 main {
-  position: absolute;
+  position: relative;
   margin-top: 80px;
   display: flex;
   width: 1300px;
@@ -164,4 +164,29 @@ strong {
   color: DimGray;
   padding: 10px;
   border-bottom: 1px solid black;
+}
+
+
+/*footer section*/
+footer {
+  width: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-nav {
+  padding: 30px;
+}
+
+span.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
