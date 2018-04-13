@@ -27,10 +27,6 @@ header {
     margin: 0px 10px;
 }
 
-.logo {
-  display: inline;
-}
-
 nav {
   padding-right: 30px;
   display: inline-flex;
@@ -46,4 +42,44 @@ span.nav {
 
 a.nav {
   color: black;
+}
+
+main {
+  position: absolute;
+  margin-top: 80px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.large {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  width: 630px;
+}
+
+.medium {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.small {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  width: 240px;
+}
+
+.small-content {
+  border: 1px solid black;
+}
+
+.medium-content {
+  border: 1px solid black;
+}
+
+.large-content {
+  border: 1px solid black;
 }
